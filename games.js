@@ -28,11 +28,11 @@ function inicializarEspacos(){
 
             if(this.getElementsByClassName("img").length ==0){
                 if(playTime == player1){
-                    this.innerHTML = "<img src='imagens/x.png'>"
+                    this.innerHTML = "<img src='imagens/x.png' border='0' height='45'>"
                     this.setAttribute("jogada", player1);
                     playTime = player2;
                 }else {
-                    this.innerHTML = "<img src='imagens/o.png'>"
+                    this.innerHTML = "<img src='imagens/o.png' border='0' height='45'>"
                     this.setAttribute("jogada", player2);
                     playTime = player1;
                 }
